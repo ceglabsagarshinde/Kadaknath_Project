@@ -1,0 +1,7 @@
+PCAngsd v.1.03
+Time: 07/03/2022 23:11:04
+Directory: /media/sagar/disk3/forbwa/gatktotal/finalallindi/20x_coverage
+Options:
+	-beagle genolike_101.beagle.gz
+	-threads 32
+	-out genolike_101.cov
