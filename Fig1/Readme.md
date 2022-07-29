@@ -1,4 +1,4 @@
-This folder contains the following files:
+This folder contains the following subfolders:
 
 1. Fig1A: This folder contains R code for the Asia and China map generation. A map of Asia and China used in Fig1 has been provided.
 
