@@ -1,0 +1,9 @@
+Input: lname=genolike_34_dup2.beagle.gz nPop=3, fname=(null) qname=(null) outfiles=3.admixture
+Setup: seed=1656739271 nThreads=24 method=1
+Convergence: maxIter=2000 tol=0.000010 tolLike50=0.100000 dymBound=0
+Filters: misTol=0.050000 minMaf=0.050000 minLrt=0.000000 minInd=24
+Input file has dim: nsites=3165 nind=34
+Input file has dim (AFTER filtering): nsites=2260 nind=34
+	[ALL done] cpu-time used =  4.18 sec
+	[ALL done] walltime used =  1.00 sec
+best like=-40985.941920 after 116 iterations
