@@ -1,0 +1,1 @@
+Chromosome_wise_Fst_Pi_Theta_and_Dxy_Jhabua_Bhopal:This folder contains the input files, code, and figures for the pairwise comparision of Fst, Pi, Theta, and Dxy between Jhabua and Bhopal for each chromosome.
