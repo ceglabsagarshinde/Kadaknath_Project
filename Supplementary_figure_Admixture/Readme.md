@@ -4,7 +4,7 @@ Supplementary_figure_Admixture: This folder contains the following subfolders:
 
 2. 101_individual_exclude_Z_W_scaffold_MT: This folder contains input files, code and figures for 101 chicken individuals genomewide Admixture analysis after excluding sex chromosomes(Z and W) and scaffolds.
 
-3. 34_individual_exclude_Z_W_scaffold_MT: This folder contains input files, code and figures for 34 black bone chicken individuals genomewide Admixture analysis after excluding sex chromosomes(Z and W) and scaffolds.
+3. 34_individual_exclude_Z_W_scaffold_MT: This folder contains input files, code and figures for 34 black bone chicken individuals genomewide Admixture analysis after excluding sex chromosomes (Z and W) and scaffolds.
 
 4. 34_individual_genome_wide: This folder contains input files, code and figures for 34 black bone chicken individuals genomewide Admixture analysis.
 
