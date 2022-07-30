@@ -1,0 +1,1 @@
+SNPhylo_tree_101_and_34_black_bone_individuals: This folder contains the input files, code, and figures for constructing a genomewide phylogenetic tree for all 101 and only 34 black-bone individuals using SNPhylo, which uses VCF files from bcftools and freebayes.
