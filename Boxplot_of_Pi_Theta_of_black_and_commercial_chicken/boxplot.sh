@@ -1,4 +1,4 @@
-#extract the columns from within pop statastics file of ANGSD for Pi, theta, Tajima's D and Fu ald Li's D with Nsites
+#extract the columns within the population statistics file of ANGSD for Pi, theta, Tajima's D and Fu ald Li's D with Nsites.
 for i in *gz.pestPG;do cut -f4,5,9,11,14 $i >$i.subset;done
 
 #population-wise add the short names
