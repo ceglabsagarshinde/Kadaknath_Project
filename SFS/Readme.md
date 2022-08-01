@@ -1,1 +1,1 @@
-SFS: This folder contains input files, code and figure for Site Frequency Spectrum (SFS) estimation for KADK, CHIN, and Commercial(BROC/CWLH/WHLL/RIRL) populations. 
+SFS: This folder contains input files, code and figure for Site Frequency Spectrum (SFS) estimation for within kadkanath morphs (GOLD,PENC,JETB) KADK, CHIN, YOSK,and Commercial(BROC/CWLH/WHLL/RIRL) populations. 
