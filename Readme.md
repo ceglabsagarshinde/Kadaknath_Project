@@ -171,10 +171,17 @@ bam-readcount
 
 **R**
 library(sp)
+
 library(reshape)
-library("ecodist")
+
+library(ecodist)
+
 library(qqman)
+
 library(gtools)
+
 jackKnife.R
+
 library(rehh)
+
 library(tidyverse)
