@@ -1,1 +1,1 @@
-MT_Network: This folder contains input files, code, and figures of Mitochondrial network analysis using the median-joining method in PopART and SplitsTree of the whole MT genome from 34 black bone chicken populations.
+MT_Network: This folder contains input files, code, and figures of Mitochondrial network analysis using the median-joining method in PopART and SplitsTree of the whole MT genome from 33 black bone chicken populations.
