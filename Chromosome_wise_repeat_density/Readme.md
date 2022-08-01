@@ -1,1 +1,1 @@
-Chromosome_wise_repeat_density: This folder contains input files, code, and figures for the chromosome-wise repeat density in Galgal6 genome assembly.
+Chromosome_wise_repeat_density: This folder contains input files, code, and figures for the chromosome-wise repeat density with Fst in 50Kb window in Galgal6 genome assembly repeats downloaded from UCSC genome browser.
