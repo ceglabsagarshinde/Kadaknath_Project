@@ -130,3 +130,33 @@ Fig5B: This folder contains the input files, code, and figures for the Fst, D-st
 **phastCons_conservation_score:** This folder contains input files, code and figures of Pencil specific fixed site and conservation score of 1.5KB from phastCons.
 
 **Prerequisites:**
+
+Bwa 0.7.17-r1188
+Samtools 1.9
+SNPhylo 20180901
+Freebayes v1.0.0
+Figtree 1.4.2
+SplitsTree 4.14.8
+PopART
+Angsd 0.935-56-g6418514
+Bedtools v2.26.0
+popgenWindows.py
+ABBABABAwindows.py
+VCFtools 0.1.15
+Picardtools
+NGSadmix
+PCAngsd 0.99
+CLUSTALW
+bcftools 1.9
+snpEff
+bam-readcount
+
+R
+library(sp)
+library(reshape)
+library("ecodist")
+library(qqman)
+library(gtools)
+jackKnife.R
+library(rehh)
+library(tidyverse)
