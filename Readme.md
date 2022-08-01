@@ -132,26 +132,44 @@ Fig5B: This folder contains the input files, code, and figures for the Fst, D-st
 **Prerequisites:**
 
 Bwa 0.7.17-r1188
+
 Samtools 1.9
+
 SNPhylo 20180901
+
 Freebayes v1.0.0
+
 Figtree 1.4.2
+
 SplitsTree 4.14.8
+
 PopART
+
 Angsd 0.935-56-g6418514
+
 Bedtools v2.26.0
+
 popgenWindows.py
+
 ABBABABAwindows.py
+
 VCFtools 0.1.15
+
 Picardtools
+
 NGSadmix
+
 PCAngsd 0.99
+
 CLUSTALW
+
 bcftools 1.9
+
 snpEff
+
 bam-readcount
 
-R
+**R**
 library(sp)
 library(reshape)
 library("ecodist")
