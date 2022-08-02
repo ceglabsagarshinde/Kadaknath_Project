@@ -129,6 +129,8 @@ Fig5B: This folder contains the input files, code, and figures for the Fst, D-st
     
 **phastCons_conservation_score:** This folder contains input files, code and figures of Pencil specific fixed site and conservation score of 1.5KB from phastCons.
 
+**Bam_read_count_screenshot_of_sweep-region:** This folder contains a ppt with a bam read count of missense variant position of the various gene present in the R1 selective sweep region.
+
 **Prerequisites:**
 
 Bwa 0.7.17-r1188
