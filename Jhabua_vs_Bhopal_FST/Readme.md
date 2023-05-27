@@ -1,1 +1,0 @@
-Jhabua_vs_Bhopal_FST: This folder contains the input files, code, and figure for the genomewide pairwise Fst comparison in 50Kb window between BH1(JETB1, PENC1, and GOLD1), BH2(JETB2, PENC2, and GOLD2) and JHA(JETB3, PENC3, and GOLD3).
