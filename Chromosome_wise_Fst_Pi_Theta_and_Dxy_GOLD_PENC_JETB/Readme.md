@@ -1,1 +1,0 @@
-Chromosome_wise_Fst_Pi_Theta_and_Dxy_GOLD_PENC_JETB: This folder contains the input files, code, and figures for the pairwise comparison of Fst, Pi, Theta, and Dxy between GOLD, PENC and JETB for each chromosome.
