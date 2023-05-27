@@ -1,1 +1,0 @@
-Boxplot_of_Pi_Theta_of_black_and_commercial_chicken: This folder contains the input files, code, and figures for the boxplot of Pi and Theta, Tajima's D and Fu ald Li's D  of black-bone, native and commercial chicken populations.
