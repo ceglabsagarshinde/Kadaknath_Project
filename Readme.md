@@ -51,8 +51,6 @@ Fig5B: This folder contains the input files, code, and figures for the Fst, D-st
 
 **IBD_analysis:** This folder contains input files, code and figures of Isolation By Distance (IBD) analysis for four combinations of multiple black bone chicken populations.
 
-**Jhabua_vs_Bhopal_FST:** This folder contains the input files, code, and figure for the genomewide pairwise Fst comparison in 50Kb window between BH1(JETB1, PENC1, and GOLD1), BH2(JETB2, PENC2, and GOLD2) and JHA(JETB3, PENC3, and GOLD3).
-
 **MT_Network:** This folder contains input files, code, and figures of Mitochondrial network analysis using the median-joining method in PopART and SplitsTree of the whole MT genome from 33 black bone chicken populations.
 
 **Pi_and_Theta_of_FM_region:** This folder contains the input file, code and figure for Pi and Theta estimation of KADK, CHIN, BROC, RIRL, CWLH, YOSK, and WHLL populations using ANGSD.
@@ -62,20 +60,6 @@ Fig5B: This folder contains the input files, code, and figures for the Fst, D-st
 **SFS:** This folder contains input files, code and figure for Site Frequency Spectrum (SFS) estimation for within kadkanath morphs (GOLD,PENC,JETB) and between KADK, CHIN, YOSK,and Commercial(BROC/CWLH/WHLL/RIRL) populations.
 
 **SNPhylo_tree_101_and_34_black_bone_individuals:** This folder contains the input files, code, and figures for constructing a genomewide phylogenetic tree for all 101 and only 34 black-bone individuals using SNPhylo, which uses VCF files from bcftools and freebayes.
-
-**Supplementary_Fig_ABBA_BABA_boxplot:** This folder contains input,code and figures for supplementary boxplot of ABBA-BABA Pattern in 50 kb window using ABBABABAwindows.py method.
-
-**Supplementary_fig_of_ABBA_BABA_pattern_between_black_bone_and_commercial_breeds: This folder contains the following subfolders:**
-
-    Calculate_Dxy_blackbone_vs_commercial_breeds: This folder contains the input files, code, and figures for the estimation of Dxy between black-bone and commercial breeds.
-
-    BROC: This folder contains the input files, code, and figures for the Fst, D-statistics, and the number of ABBA-BABA sites between Kadaknath(KADK), Chinese black-bone(CHIN) and commercial(BROC) chicken populations for each chromosome and three candidate region GABRA2, C4ORF33,PRMT7 in 50 Kb window.
-
-    CWLH: This folder contains the input files, code, and figures for the Fst, D-statistics, and the number of ABBA-BABA sites between Kadaknath(KADK), Chinese black-bone(CHIN) and commercial(CWLH) chicken populations for each chromosome and three candidate region GABRA2, C4ORF33,PRMT7 in 50 Kb window.
-
-    RIRL: This folder contains the input files, code, and figures for the Fst, D-statistics, and the number of ABBA-BABA sites between Kadaknath(KADK), Chinese black-bone(CHIN) and commercial(RIRL) chicken populations for each chromosome and three candidate region GABRA2, C4ORF33,PRMT7 in 50 Kb window.
-
-    WHLL: This folder contains the input files, code, and figures for the Fst, D-statistics, and the number of ABBA-BABA sites between Kadaknath(KADK), Chinese black-bone(CHIN) and commercial(WHLL) chicken populations for each chromosome and three candidate region GABRA2, C4ORF33,PRMT7 in 50 Kb window.
 
 **Supplementary_figure_Admixture: This folder contains the following subfolders:**
 
