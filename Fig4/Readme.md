@@ -1,1 +1,1 @@
-Fig4: This folder contains an input file, code and figure for Dup2 haplotype analysis.
+Fig4: This folder contains input files used for Dup2 haplotype analysis.
