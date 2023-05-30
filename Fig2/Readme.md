@@ -1,1 +1,0 @@
-Fig2: This folder contains the input files, code and figures for figure 2 and its zoomed view for the base level junction of Dup1 and Dup2 in black-bone(GOLD) and non-black-bone chicken(RJF) individuals.
