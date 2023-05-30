@@ -1,1 +1,1 @@
-Fig3: This folder contains input file and figure for Dup1 haplotype analysis.
+Fig3: This folder contains input files used for Dup1 haplotype analysis.
