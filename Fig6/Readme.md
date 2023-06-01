@@ -1,1 +1,1 @@
-Fig6: This folder contains read ids and sequences used for Fig6.
+Fig6: This folder contains input files, code and figures used for Fig6.
