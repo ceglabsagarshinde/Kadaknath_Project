@@ -11,3 +11,5 @@ Supplementary_fig_PCA: This folder contains the following subfolders:
 5. 34_individual_genomewide: This folder contains input files, code and figures for 34 black bone chicken individuals genomewide PCA analysis.
 
 6. 34_individuals_FM_region: This folder contains input files, code and figures for FM locus region PCA analysis for 34 black bone chicken individuals.
+
+7. 123_individual_FM_locus_PCA: This folder contains input files, code and figures for FM locus region PCA analysis for 123 chicken individuals.
