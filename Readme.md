@@ -120,6 +120,9 @@ Data is organised into the following folders:
 
 **Bam_read_count_screenshot_of_sweep-region:** This folder contains a ppt with a bam read count of missense variant position of the various gene present in the R1 selective sweep region.
 
+**Supplementary_Fig3_4_5: This folder contains script, position, bed files and read ids which has been used for the Fig 3,4 and 5.
+
+
 **Prerequisites:**
 
 Bwa 0.7.17-r1188
