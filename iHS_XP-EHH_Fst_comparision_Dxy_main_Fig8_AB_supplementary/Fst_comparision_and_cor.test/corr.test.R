@@ -1,0 +1,10 @@
+
+a<-read.table("kadk_china_angsd.fst")
+b<-read.table("kadk_china_PYTHON.fst")
+cor.test(b$V2,a$V2,method="pearson")
+tiff("cor.tif",width=2000,height=1500,res=100)
+par(mai=c(5,5,2,1))
+plot(a$V2,b$V2,col="dark blue",xlab=c(expression(paste("ANGSD F"[ST]))),ylab=c(expression(paste("popgenWindows.py F"[ST]))))
+text(0.4,0.8,label="p-value=2.2e-16")
+text(0.4,0.7,label="Correlation coefficient=0.9750763")
+dev.off()

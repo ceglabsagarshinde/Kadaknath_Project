@@ -1,0 +1,19 @@
+library(rehh)
+library(tidyverse)
+KADK_bcf <- data2haplohh(hap_file = "aaa.bcftools.vcf.KADK.vcf.gz",polarize_vcf = FALSE)
+CHIN_bcf <- data2haplohh(hap_file = "aaa.bcftools.vcf.Chinese.vcf.gz",polarize_vcf = FALSE)
+
+KADK_bcf_f <- subset(KADK_bcf, min_maf = 0.05)
+CHIN_bcf_f <- subset(CHIN_bcf, min_maf = 0.05)
+KADK_scan_bcf <- scan_hh(KADK_bcf_f, polarized = FALSE)
+CHIN_scan_bcf <- scan_hh(CHIN_bcf_f, polarized = FALSE)
+KADK_ihs_bcf <- ihh2ihs(KADK_scan_bcf, freqbin = 1)
+CHIN_ihs_bcf <- ihh2ihs(CHIN_scan_bcf, freqbin = 1)
+
+KADK_CHIN <- ies2xpehh(KADK_scan_bcf, CHIN_scan_bcf, popname1 = "KADK", popname2 = "CHIN", include_freq = T)
+
+write.table(KADK_CHIN,"KADK_CHIN_xpehh_bcf_aaa.txt")
+write.table(KADK_ihs_bcf,"KADK_ihs_bcf_aaa.txt")
+write.table(CHIN_ihs_bcf,"CHIN_ihs_bcf_aaa.txt")
+
+
