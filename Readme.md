@@ -13,39 +13,36 @@ Bhauri, Madhya Pradesh, India
 
 Data is organised into the following folders:
 
-**Fig1: This folder contains the following subfolders:**
+**This folder contains the following subfolders:
 
     Fig1A: This folder contains R code for the Asia and China map generation. A map of Asia and China used in Fig1 has been provided.
 
-    Fig1B: This folder contains an input file, code and figure for 101 chicken individuals genomewide PCA analysis.
+    Fig1B: This folder contains an input file, code and figure for 34 BBC chicken individuals genomewide PCA analysis.
 
-    Fig1C: This folder contains the input file, code and figure for 101 chicken individuals Admixture analysis at best K=7.
+    Fig1C: This folder contains the input file, code and figure for 34 BBC chicken individuals Admixture analysis at best K=7.
 
-**Fig2:** This folder contains the input files, code and figures for figure 2 and its zoomed view for the base level junction of Dup1 and Dup2 in black-bone(GOLD) and non-black-bone chicken(RJF) individuals.
+**Fig3: This folder contains input files used for Dup1 haplotype analysis.
 
-**Fig3: This folder contains the following subfolders:**
+**Fig4: This folder contains input files used for Dup2 haplotype analysis.
 
-    Fig3A: This folder contains the input files, code, and figure for the pairwise Fst comparison between Kadaknath (KADK) and Chinese black-bone chicken (CHIN).
+**Fig5: This folder contains bed files which is used for visualization of two haplotypes of Dup1 and Dup2 of Fm locus and figures used for Fig5.
 
-    Fig3B: This folder contains the input files, code, and figure for the pairwise Fst comparison between Kadaknath (KADK) and Chinese black bone chicken (CHIN) in 10Kb, Pi, and iHS of chromosome 20.
-    
-**Fig4:** This folder contains the input files, code, and figure for the genomewide pairwise Fst comparison in 50 Kb window between JETB, PENC and GOLD.
+**Fig6: This folder contains input files, code and figures used for Fig6.
 
-**Fig5: This folder contains the following subfolders:**
+**Fig7: This folder contains read ids and sequences used for Fig7.
 
-Fig5A: This folder contains the input files, code, and figures for the boxplot of ABBA-BABA between Kadaknath(KADK), Chinese black-bone(CHIN) and commercial(BROC/CWLH/WHLL/RIRL) chicken populations.
+**Fig8: This folder contains the following subfolders:**
 
-Fig5B: This folder contains the input files, code, and figures for the Fst, D-statistics, and the number of ABBA-BABA sites between Kadaknath(KADK), Chinese black-bone(CHIN) and commercial(WHLL)chicken populations for each chromosome in 50 Kb window.
+    Fig8A: This folder contains the input files, code, and figure for the pairwise Fst comparison between Kadaknath (KADK) and Chinese black-bone chicken (CHIN).
+
+    Fig8B: This folder contains the input files, code, and figure for the pairwise Fst comparison between Kadaknath (KADK) and Chinese black bone chicken (CHIN) in 10Kb, Pi, and iHS of chromosome 20.
+
 
 **BPIL_gene_alignment:** This folder contains an amino acid multifasta file, alignment file and supplementary figure of Kadaknath-specific nonsynonymous changes in the BPIL gene.
 
 **Boxplot_of_Pi_Theta_of_black_and_commercial_chicken:** This folder contains the input files, code, and figures for the boxplot of Pi and Theta, Tajima's D and Fu ald Li's D of black-bone, native and commercial chicken populations.
 
 **Boxplot_of_Pi_Theta_within_Kadak_and_KADAK_vs_CHIN_YOSK:** This folder contains the input files, code, and figures for the boxplot of Pi and Theta of Kadaknath (KADK), Chinese black-bone (CHIN ) and Yeonsan Ogye (YOSK) populations. It also contains input files, code, and figures for the boxplot of Pi and Theta within Kadaknath.
-
-**Chromosome_wise_Fst_Pi_Theta_and_Dxy_GOLD_PENC_JETB:** This folder contains the input files, code, and figures for the pairwise comparison of Fst, Pi, Theta, and Dxy between GOLD, PENC and JETB for each chromosome.
-
-**Chromosome_wise_Fst_Pi_Theta_and_Dxy_Jhabua_Bhopal:**This folder contains the input files, code, and figures for the pairwise comparision of Fst, Pi, Theta, and Dxy between Jhabua and Bhopal for each chromosome.
 
 **Chromosome_wise_repeat_density:** This folder contains input files, code, and figures for the chromosome-wise repeat density with Fst in 50Kb window in Galgal6 genome assembly repeats downloaded from UCSC genome browser.
 
@@ -61,7 +58,7 @@ Fig5B: This folder contains the input files, code, and figures for the Fst, D-st
 
 **SNPhylo_tree_101_and_34_black_bone_individuals:** This folder contains the input files, code, and figures for constructing a genomewide phylogenetic tree for all 101 and only 34 black-bone individuals using SNPhylo, which uses VCF files from bcftools and freebayes.
 
-**Supplementary_figure_Admixture: This folder contains the following subfolders:**
+**Supplementary_figure_Admixture: This folder contains the following subfolders:
 
     101_Genomewide_with_best_K: This folder contains the input file, code and figure for 101 chicken individuals genomewide Admixture analysis at 2 to 10 K and best K=7.
 
@@ -72,8 +69,16 @@ Fig5B: This folder contains the input files, code, and figures for the Fst, D-st
     34_individual_genome_wide: This folder contains input files, code and figures for 34 black bone chicken individuals genomewide Admixture analysis for 2 to 10 K.
 
     34_individuals_FM_region: This folder contains input files, code and figures for FM locus regions (Flank1,Dup1,Int,Dup2,and Flank2) Admixture analysis for 34 black bone chicken individuals for 2 to 10 K.
+
+    88_individual_67617_SNPs_Admixture:This folder contains input files, code and figures for 88 individuals genomewide Admixture analysis for 67617 SNPs.
+
+    100_individual_67617_SNPs_Admixture:This folder contains input files, code and figures for 100 individuals genomewide Admixture analysis for 67617 SNPs.
+
+    109_individual_67617_SNPs_Admixture:This folder contains input files, code and figures for 109 individuals genomewide Admixture analysis for 67617 SNPs.
+
+    123_individual_67617_SNPs_Admixture:This folder contains input files, code and figures for 123 individuals genomewide Admixture analysis for 67617 SNPs.
     
-**Supplementary_fig_PCA: This folder contains the following subfolders:**
+**Supplementary_fig_PCA: This folder contains the following subfolders:
 
     101_individual_exclude_Z_W_scaffold_MT: This folder contains input files, code and figures for 101 chicken individuals genomewide PCA analysis after excluding sex chromosomes(Z and W) and scaffolds.
 
@@ -86,24 +91,24 @@ Fig5B: This folder contains the input files, code, and figures for the Fst, D-st
     34_individual_genomewide: This folder contains input files, code and figures for 34 black bone chicken individuals genomewide PCA analysis.
 
     34_individuals_FM_region: This folder contains input files, code and figures for FM locus region PCA analysis for 34 black bone chicken individuals.
-    
-**Supplementary_of_main_figure_2: This folder contains the following subfolders:**
 
-    Finding_of_rearranged_junction_using_PacBio_read: This folder contains the input file, code and figure for the rearranged junction.
+    123_individual_FM_locus_PCA: This folder contains input files, code and figures for FM locus region PCA analysis for 123 chicken individuals.
 
-    FM_region_read_coverage: This folder contains the input file, code and figure for read coverage of FM locus.
+    pca_R1_R2_intermediate: This folder contains input files, code and figures for R1,R2, and Intermediate region PCA analysis for 34 chicken individuals.
 
-    Fst_Dxy_Fm_region.zip: This folder contains the input file, code and figure for estimation of Fst and Dxy in the FM region.
+ **Finding_of_rearranged_junction_using_PacBio_read: This folder contains the input file, code and figure for the rearranged junction.
 
-    igv_screenshot_of_rearranged_junction_regions.zip: This folder contains IGV screenshots of rearranged junctions of the FM region.
+ **FM_region_read_coverage: This folder contains the input file, code and figure for read coverage of FM locus.
 
-    Normalized_Coverage_of_Dup1_and_Dup2_baselevel_start_end_junction: This folder contains the input file, code and figure for coverage of base level start and end of Dup1 and Dup2.
+ **Fst_Dxy_Fm_region: This folder contains the input file, code and figure for estimation of Fst and Dxy in the FM region.
 
-    Normalized_Coverage_plot_of_rearranged_junction_regions.zip: This folder contains the input file, code and figure for the coverage plot of base level start and end of Dup1 and Dup2.
+ **Normalized_Coverage_of_Dup1_and_Dup2_baselevel_start_end_junction: This folder contains the input file, code and figure for coverage of base level start and end of Dup1 and Dup2.
+
+ **Normalized_Coverage_plot_of_rearranged_junction_regions.zip: This folder contains the input file, code and figure for the coverage plot of base level start and end of Dup1 and Dup2.
     
 **VCF_file_generation:** This folder contains the genomewide variant calling code, removing indels, extracting common SNPs and generating a VCF file.
 
-**iHS_XP-EHH_Fst_comparision_Dxy_main_fig3_AB_supplementary: This folder contains the following subfolders:**
+**iHS_XP-EHH_Fst_comparision_Dxy_main_Fig8_AB_supplementary: This folder contains the following subfolders:**
 
     dxy_vs_Fst_between_CHIN_KADK: This folder contains the input file, code and figure for Dxy and Fst comparison between Kadaknath (KADK) and Chinese black-bone (CHIN) individuals using popgenWindows.py.
 
