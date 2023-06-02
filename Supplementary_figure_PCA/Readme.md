@@ -14,4 +14,4 @@ Supplementary_fig_PCA: This folder contains the following subfolders:
 
 7. 123_individual_FM_locus_PCA: This folder contains input files, code and figures for FM locus region PCA analysis for 123 chicken individuals.
 
-7. 123_individual_FM_locus_PCA: This folder contains input files, code and figures for FM locus region PCA analysis for 123 chicken individuals.
+7. pca_R1_R2_intermediate: This folder contains input files, code and figures for R1,R2, and Intermediate region PCA analysis for 34 chicken individuals.
