@@ -1,0 +1,1206 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Gallus_gallus.GRCg6a.dna_sm.toplevel.fa
+           464 sequences; 1,065,365,425 total letters
+
+
+
+Query= @SRR6189090.387043 387043/1
+
+Length=14917
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  20 dna_sm:chromosome chromosome:GRCg6a:20:1:13897287:1 REF          13710   0.0  
+  2 dna_sm:chromosome chromosome:GRCg6a:2:1:149682049:1 REF           73.4    1e-09
+  4 dna_sm:chromosome chromosome:GRCg6a:4:1:91315245:1 REF            68.0    5e-08
+  1 dna_sm:chromosome chromosome:GRCg6a:1:1:197608386:1 REF           66.2    2e-07
+  Z dna_sm:chromosome chromosome:GRCg6a:Z:1:82529921:1 REF            66.2    2e-07
+  3 dna_sm:chromosome chromosome:GRCg6a:3:1:110838418:1 REF           62.6    2e-06
+  13 dna_sm:chromosome chromosome:GRCg6a:13:1:19166714:1 REF          60.8    8e-06
+  11 dna_sm:chromosome chromosome:GRCg6a:11:1:20200042:1 REF          53.6    0.001
+  8 dna_sm:chromosome chromosome:GRCg6a:8:1:30219446:1 REF            53.6    0.001
+  22 dna_sm:chromosome chromosome:GRCg6a:22:1:5459462:1 REF           51.8    0.004
+  9 dna_sm:chromosome chromosome:GRCg6a:9:1:24153086:1 REF            51.8    0.004
+  6 dna_sm:chromosome chromosome:GRCg6a:6:1:36374701:1 REF            51.8    0.004
+  W dna_sm:chromosome chromosome:GRCg6a:W:1:6813114:1 REF             51.8    0.004
+
+
+
+Query_1  6          AGAAGATGGAGTCAGAGCAATGGCCTGCACCAACGGGTAACACTTGGGGCAATGAGACCC  65
+22       11465142   .....--.........................-......CA...................  11465200
+                                               \               \                
+                                               |               |                
+                                               G               C
+
+Query_1  66         GCTCCTGAAGGTGTGAGTATCAGGGAAGACACAGTAGGTAAGGCCATGCCATCTGAAATG  125
+22       11465201   --..............................-................-..........  11465258
+                                        \       \                               
+                                        |       |                               
+                                        A       G
+
+Query_1  126        AGTAAATGAAACCCAGTGCCAATCCCAATGCGCGCTTTTGCAGATTGTAGCCAGTCTGCT  185
+22       11465259   ..--......-......T.............C.--......................-..  11465313
+                                                                        \       
+                                                                        |       
+                                                                        C
+
+Query_1  186        CTGAAGTCCTGCCTGGTTTATCTGTGTGGGACAGCGGCCCTGCTCTGATGGGTCCACTGC  245
+22       11465314   ..........-......................-.....-..............-.....  11465369
+
+Query_1  246        GCACATGTGGCTGGCCAGGGCTGTGGCAACAAAAGCTGTGCCCACAGCAGAGGCATGAAT  305
+22       11465370   ....-....-...-...........-....................-.............  11465424
+
+Query_1  306        CCAGTAAACATAAAAAGCTGCATTCCAAGAAATGAAGGTGCAGGTGGAGAAATTTTAGCA  365
+22       11465425   ....--....A..T.............G--...-............-....-.....C--  11465475
+
+Query_1  366        TCACGCTCATCCCTACAGTGGATTAATTACATGTGGTACATGCTGTGCTGGGCAAGGTAT  425
+22       11465476   ....-......--.................-..........-..........-.......  11465529
+
+Query_1  426        TCCACCTGTCGGTATAGCCGAATGGAGGGTAAGGCAAAATGTGAGCTGTGAGGGATTAGA  485
+22       11465530   ...-.........G-....C.-......................................  11465588
+                                                    \              \            
+                                                    |              |            
+                                                    A              T
+
+Query_1  486        GGGGGATGTTTAAAAGTTTCAGCTGTGGGGCTTCAAACTTAAAGGAATTGAGCCTTTGGA  545
+22       11465589   ..................-........---.....--.......................  11465642
+
+Query_1  546        GGTTTCCCCATCACTTCTGATGGGAGGTCAGATTGCTTTTATCAAACAGAGGATGAGAAA  605
+22       11465643   .......................-..A.................................  11465701
+
+Query_1  606        AGAAGCTGAGATGCAGAAttttttttCTTACGCCAGGTTGGTTTGGTTGGAGAAGGGAAA  665
+22       11465702   -..--............--..........C.--..........-.......-........  11465752
+
+Query_1  666        AAACAGAAATTGACTGAAGAGAAAAGCAGGTTTACAATAGGATTGTAGATAATGGGTTTT  725
+22       11465753   ..-.....-.........A.............-...T--.....................  11465810
+                                   \     \                                  \   
+                                   |     |                                  |   
+                                   T     G                                  A
+
+Query_1  726        GGAAGGTGTGGAGTCATTAGGAACAGAATAAGGGGAAAATAATTTTCCACTAGTCACTGT  785
+22       11465811   ..........-...........-........................-............  11465868
+                                                           \                    
+                                                           |                    
+                                                           A
+
+Query_1  786        GCATGAATGCAAGAAACAGTTGTTCCTCTGTTTAATTATCTGTTTCCCAGCACTGAAAGC  845
+22       11465869   ....-......G--....................T..--......T............CT  11465923
+
+Query_1  846        GTTGGGCAAGCGCTCCAGTTGTGAGATGGGGATTGTGGCAGACTCCAAAGAGAAAAGCAA  905
+22       11465924   .....-..--.......-...................-......................  11465978
+
+Query_1  906        AACAGGCACCAATGACAATAAACAGCTGGCTTCCAACTGTAACACCTGACGCAAAGAATG  965
+22       11465979   .-...........-.......-......-............................-..  11466033
+
+Query_1  966        TTAAACGAGACCTTAAAAGGAGGGACCATTAAATGAAACGTATTCTTTTAGCTTCACTTC  1025
+22       11466034   ......-......-..............................................  11466092
+                                                                          \     
+                                                                          |     
+                                                                          T
+
+Query_1  1026       CTGAAGGggttgttgggtggttttgtgttgttgttgttgttctgagtttgttggttgtgt  1085
+22       11466093   ........-.......................................-....-......  11466150
+                                              \                                 
+                                              |                                 
+                                              T
+
+Query_1  1086       tgttTAATAAGCTAGAACCATTTGGCAAGTGGATGAAAGTGTGCACACAGAGGAGTTGGG  1145
+22       11466151   ..........-..G........--...-.......G.....--......-......-...  11466203
+                                                     \                          
+                                                     |                          
+                                                     C
+
+Query_1  1146       CAGAGGTACGGGGATATGTCCCATTCCTCCTCTGTATTGGCAGAGTTTTGAAAATTGAAA  1205
+22       11466204   ...............--......................-........-...........  11466260
+                                                     \                          
+                                                     |                          
+                                                     T
+
+Query_1  1206       AAATACTTCATTTAAAATAAGAGACAGTGTGAAGATGCAGTGGTTTATTGCTTATACCGT  1265
+22       11466261   ..-.........-......-............-................CT.A.....T.  11466316
+
+Query_1  1266       TTAAGGATGTTTTGGCTTCAATATTTCATCTCCTGTTAAATTCTCATTACTCTCGCTTTC  1325
+22       11466317   .--.....--.....-.............-.........-.....-........-.....  11466367
+
+Query_1  1326       TTaaaaaaaTTGAAAGGCTCCAACGCAAGCAGTACCTGCCTGTGCTTGAGCCCCTCCTGG  1385
+22       11466368   ..............--........A..............-....................  11466425
+                        \                                                       
+                        |                                                       
+                        G
+
+Query_1  1386       CAGTGTTCTCCTGCCCATGTGGGCTTTTTGTCTCTTTTTCCGCACAATaaaaaaaaaaaa  1445
+22       11466426   ............................-...C....CC..-------------------  11466465
+4        121349467                        ............A.C.AGG...A..A............  121349504
+4        109271837                                               ..A............  109271851
+6        18272067                            .........--....AT..A..A.C.....C....  18272099
+6        83531009                                 ...........-.TT..A.........G..  83531037
+6        36258249                                                   ............  36258238
+3        66202078                                                 ..T....T......  66202065
+3        155161819                          ...........---------.T..T...........  155161845
+3        50336087                                 ...........A.T.TC.TT..........  50336116
+3        129001680                                                ....T...C...C.  129001667
+2        4620511                                                 ...T...T.....T.  4620525
+5        95755441                                                   ............  95755452
+15       6411914                                                   ..........C..  6411926
+1        16751                                                       ...T...C...  16761
+
+Query_1  1446       aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaTATTTCCTATTTATCCTTTTGATTATTG  1505
+22       11466466   ---------------------------..TT..-......T....A...CC.........  11466503
+                                                                       \        
+                                                                       |        
+                                                                  CCACAC
+4        121349505  ........G.....G...                                            121349522
+4        109271852  ................................G...........                  109271906
+                                                      \                         
+                                                      |                         
+                                            GCAGTGACTCA
+6        18272100   C....C....C....................                               18272130
+6        83531038   ..G....G....G......G............                              83531072
+                                              \                                 
+                                              |                                 
+                                            GGG
+6        36258237   .......................TT......GCC...........                 36258184
+                                        \       \                               
+                                        |       |                               
+                                      CGT  TCATTG
+3        66202064   .....G......G.....CC...C......T....C.G.CCA.............       66202010
+3        155161846  GT...G...GG.........G..........GC....-..C...T.....            155161894
+3        50336117   .................                                             50336133
+3        129001666  ..C...C......C...........C..G..T............                  129001619
+                                                  \                             
+                                                  |                             
+                                               GCTC
+3        152675800             ...............G.GTG.A.......G......A..C.....G..-  152675850
+                                                                 \              
+                                                                 |              
+                                                               ATT
+3        159948289         ..........................T............                159948333
+                                                    \                           
+                                                    |                           
+                                               GTTGTT
+2        4620526    .....T.....T.......T..T.....T......A-.A............           4620575
+5        77072393        ...........................A.GCC.A...A...........        77072345
+5        95755453   ........................G.....TT..G...........                95755508
+                                    \          \                                
+                                    |          |                                
+                              GGGAGGG        TGC
+15       6411927    .......C.........CT.CTT..T....G..T...........                 6411971
+1        16762      C...C.......C......T..C..C....G..CA..A--..............        16813
+
+Query_1  1506       TCATATCTGTTCATATGTGTTTGCCACGCTGCCGATCAGCGACTTTCAGTGAAATGAACG  1565
+22       11466504   ......-.........-....GC..........-......C-......AG.........C  11466559
+3        152675851  -..G..-..............                                         152675869
+
+Query_1  1566       CGGAAGCAGGCCAGGTCTGTTCTCAAGTGGTGCTGTCTGCTGAAAGAAGCCTGCTGGTCA  1625
+22       11466560   T........-.........--.........................C-....-.......  11466614
+
+Query_1  1626       TGGCGCTGGCTTTTTCCTTCAGAAGAACATTTCTGAGTTCATTTGATCACTGCTTGGCTC  1685
+22       11466615   ....T---......C---..........CA............GA-...........-...  11466666
+
+Query_1  1686       TGACGCGTGCCTGCTGCTCGGGTTGTTGTTGTTTTGGAATGGCATTCACCAGAGCAGAGT  1745
+22       11466667   ....C--.............--............-......-.......-..........  11466719
+
+Query_1  1746       CCACGCAGGCGATGTCGCTAGCGCTGCGCCTGGCTGCCGAGGCACTCTGTCAACCGTGCA  1805
+22       11466720   .-......-.........-......C.C.TG..........CAG................  11466777
+                                                                        \       
+                                                                        |       
+                                                                        C
+
+Query_1  1806       GTGCACTCCGGGGCTCTGCTAGGAGCCCCATGGCCCCAATTACTGCTGTGTGCGCTACAG  1865
+22       11466778   ............-.......-.......-...........-..............-....  11466833
+                        \                                                       
+                        |                                                       
+                        C
+
+Query_1  1866       CTCTGTGCTGGGTCCCAGCAGCTCTGGGCTGAGCATCATGAATGCCAGCGTTCCCAGGGC  1925
+22       11466834   .................-........--................T...............  11466891
+                                \                                               
+                                |                                               
+                                C
+
+Query_1  1926       AAAGCCCTTCGTCCCTAGGGTTATCAAATGTCCTCCTTTGTGTCTCTCCAGTTATTCTAT  1985
+22       11466892   ..........---..--.........--........---.....................  11466941
+
+Query_1  1986       AGACGCAGGACCGTCTTCTGCGTGGCAAGTGATCCAAAGCCTTGCTGGGGCTGGAGTAAT  2045
+22       11466942   ....-......A....-..........-............-........-......--..  11466994
+
+Query_1  2046       GGTTTGCTGGGTATAAGGAACCTGAAGGCAGACGTCAGTGCTATGTGCTGCTGCCTCAGC  2105
+22       11466995   ........C-----.....-.....G....-..................-....-.....  11467045
+
+Query_1  2106       CCTGACTAGGAGCTCAGCCTTGGAATCTGGAGGCCCCTTTCCTGCAGTGCGGTGGGAGCA  2165
+22       11467046   .......-.......--.......TG..........T..C.......-..A.....-...  11467100
+
+Query_1  2166       CGAGCATAGGGGTCCTGGGGCCTTGTGGAGCCGGCTCGCATTCGGCATGCCCCATGCTTG  2225
+22       11467101   .-.......A.T--...................-.A.T.C..-.................  11467157
+                                           \                       \            
+                                           |                       |            
+                                           C                       G
+
+Query_1  2226       GAGGATTTGGGCCTCGCTGTGTCTGTCTGTCGCTCAGGCTGCATGAGAGGGATAGGAGAG  2285
+22       11467158   ....C..........-..C............-........-...................  11467214
+
+Query_1  2286       AAAGCTCAGATCGCAAAAATGGCAGATTCGCAGCTCTTCACATTAAAACCGCCCGCAAAG  2345
+22       11467215   ..-.........C---.....-.......-...-...-.....A-----------.....  11467255
+
+Query_1  2346       GAAAGATTGGTGTTAGGCGACATTGCTCTTTCTGGTGGCAATCCAAGCCCGCAGCCTCGA  2405
+22       11467256   .......-......C..-............-......C--.....-....-.........  11467308
+
+Query_1  2406       GCTCTCTCCGTCGCCAACAGTTACTCTCGGCCGCTACGCACAAGCCGTGTATCTCTCCTC  2465
+22       11467309   ...G........C.--............---.C....-....-.................  11467361
+
+Query_1  2466       TCACTCGCAACTTTAAATAGCCGACATTATTTTCTCACGGCGAAAGTTTTAGGCTGGTCT  2525
+22       11467362   ......-.........-..-................C.----.......A--........  11467413
+                                                \                               
+                                                |                               
+                                                T
+
+Query_1  2526       ACAACAGAGGCTCGAGAGCTTGCCTGTATGTGCAGGGCTGGCCAAGCAGAGCCATTGGAC  2585
+22       11467414   ................--.......................G.C................  11467472
+                                                                            \   
+                                                                            |   
+                                                                            C
+
+Query_1  2586       GGCTGAGGAAAGCCAGCCGCAAAGCAGGTCAGAGAGCACAAAAGCCTTCGTGTGGCTTTG  2645
+22       11467473   ..................---.....................-...........-.....  11467528
+                      \                                                         
+                      |                                                         
+                      G
+
+Query_1  2646       TAGTTGCTCTCATGGTTGGTGAAACAGGCACAGTATCGGGGaaaaaaaaaaaTGCTGTGT  2705
+22       11467529   ..............................--..T.G...---..........-......  11467583
+                     \                                                          
+                     |                                                          
+                     G
+
+Query_1  2706       CTGTGTAATGTGGAAATCTTTGCAGCTCCCGTCTAGACGCTTCCCTGCTGTTGCGGGGAA  2765
+22       11467584   .......-..............................-.............-.......  11467640
+
+Query_1  2766       TGAGGGAAACTGGGCAGCCGAGGCTGCCGAGCCTGGGTGAAATCAATAATAGTGCATTGA  2825
+22       11467641   ............--......GA.....-.................-..............  11467697
+                                                                           \    
+                                                                           |    
+                                                                           C
+
+Query_1  2826       CATCATAGGCTGTTGCGCAGCCACAGCCGAAGCGCCTGCCGGGGGAAATGCGCTCAACGG  2885
+22       11467698   .....--......-.............------..............GC.-.....C---  11467744
+
+Query_1  2886       GCGGCCGGCTGGCGGATGGGACCCCCGGCCCACAACCAAAATTGTGGCGCGCTTTCTCCA  2945
+22       11467745   .......-...-....-........-........C.---.......C...--......-.  11467794
+
+Query_1  2946       CTCAGGCAGCCAAAATACGCCTCCAGGAGTTCCCCCGAGGCTTTTCAGCAGATCCAGAGG  3005
+22       11467795   .....-............-...........-........C--.................-  11467848
+
+Query_1  3006       CCTGTAGATCAGTATGTTGTGTAAGTAACAGGGGCACTGCAAGCACGCATTTATGGGCAG  3065
+22       11467849   -...........-..................---.......-....C........--...  11467902
+                                                \                   \           
+                                                |                   |           
+                                                A                   C
+
+Query_1  3066       GAACGCGTGTGCAGTGCGATGAGAGTCCGCTTTTGCTTACCGTAGCGGCCTATCATGCTC  3125
+22       11467903   ...........................-..........-........C.--.........  11467959
+                                                                           \    
+                                                                           |    
+                                                                           A
+
+Query_1  3126       TGCAGTTCTGTGTGAATAGAAAATAGCAGTGGTCACCTTGGAAGGCTGAAACACAGCCGA  3185
+22       11467960   ...............---...........GT.G.........-...........-.....  11468015
+                              \                                                 
+                              |                                                 
+                              A
+
+Query_1  3186       GGTTGGCCCCAAGTCAGTGCGTGAGCCCATATGTTGACACAAATCGCGCGGCATCTGTGG  3245
+22       11468016   ........A-.............GAG............C........-............  11468074
+                                                                         \      
+                                                                         |      
+                                                                         G
+
+Query_1  3246       GTTTCGGTGTCCCCAGTTTGGTTGCTCCTCAGGCCCTCCCCTCGTTGTTTGTCAGGCTGC  3305
+22       11468075   ......-......-..C..T.......-............-....-..............  11468129
+
+Query_1  3306       CAGGACGCTGATAAGTCTGGCATTCCCACCCCGTCTGCCACCGCCGTCCGCAGTGAGGAT  3365
+22       11468130   ......-.....--............................-......-...C...CT-  11468183
+
+Query_1  3366       GGCCTGCTGAACAGCCTTGCAGCATATTCTCGATTTTGGCAATCGGCTTTGGGCTTTGAC  3425
+22       11468184   -.................-....---......T...--.......-..............  11468237
+                             \                                                 \
+                             |                                                 |
+                             G                                                 A
+
+Query_1  3426       TTCTTTCATTGGGTGTTTTTTAAAATCTCAGCTAGAAAGAATTAAAAGACCGTATTCCAA  3485
+22       11468238   .......-...............................................-....  11468295
+
+Query_1  3486       AAAAGTTGTTGGGCTAATAAATGCAATAAttttttcgctggatttttctttatagtcttt  3545
+22       11468296   ...--.......C--.............-.......-...A--.............-...  11468346
+
+Query_1  3546       ttttttaggtttctgctccctattttttCTTCTGAATGCTGAGAATGGCGTTAAAACAAA  3605
+22       11468347   ...........-..-.............-......T--...........-..........  11468400
+
+Query_1  3606       CTGGAGTCCAGGCAGAACTGACATTACAAGTGCTATGAATCCTCTGTTTCCTTGCATTTC  3665
+22       11468401   ........-...................-.........-..............-......  11468456
+
+Query_1  3666       CTACTGGCAGCGAAAGCATTGCATTTCCTGCATCCCGACTTCCCCAGCAGACATTTTCCA  3725
+22       11468457   .--...........-.........................................-...  11468512
+
+Query_1  3726       GGGCCTCCTTTTGCCTGCAGAAATCTGCAGCCCCAGCTCCCCAGGTTGTTCGGCCCTGCA  3785
+22       11468513   ............-...-.....--...........................----.....  11468564
+
+Query_1  3786       TGTAACCACATCCATGACAATCAAACTTCCACCGTTCCGTCTCCGTGGCTGCAGAAAAGC  3845
+22       11468565   ....-..............-...GC--.................................  11468621
+                                                                             \  
+                                                                             |  
+                                                                             T
+
+Query_1  3846       AAGTAGTGGTGACTCAAAAGGAAAACGCTTTCCCAAGCGGTTGTGTTGTATTTAGTATAG  3905
+22       11468622   ...--............................-.........................-  11468678
+                                             \                                  
+                                             |                                  
+                                             G
+
+Query_1  3906       TTAACCACGCCACGCCCTCGAGGAAGGCGGATGAATGTGGAGGAGGATGAGGTTGTTCTG  3965
+22       11468679   ........--...-......GA.G....................................  11468735
+
+Query_1  3966       GAGATTTTGTGAGAAACTTCTTTGAGTGACAGTGCATTCTTAGTGACAGTTTCCCAAATG  4025
+22       11468736   ................................--......--.........-........  11468790
+
+Query_1  4026       TGGTGCTTCTAAACTGGCCCTGAATTCTGCTTATCTGTTGGCAAATCTCCCCAGCCTGCT  4085
+22       11468791   ............-.............-.................................  11468849
+                                      \                                         
+                                      |                                         
+                                      T
+
+Query_1  4086       CCTACTGCCTCCCTGGGAAACTGAGACGTTCGCAAAGGCACTACAAAAGAGGCCCCCAGC  4145
+22       11468850   G.CT..-......................-..............................  11468907
+
+Query_1  4146       ACAGTGGCCGTGAGTGGCACAAGGGACACGCCGTGACCGCACGCGATTCGCTTCTGGCCC  4205
+22       11468908   ......-......-.......-.....GT....................-...T......  11468964
+                                                              \                 
+                                                              |                 
+                                                              C
+
+Query_1  4206       TGGCCTGACGCAGAACCTGAATCTCATGTCCGCCCCGTTATTTTTCTGAGCTGCTGCTGA  4265
+22       11468965   ..--.....-..........-..........--...........-...............  11469018
+                                   \                                            
+                                   |                                            
+                                   T
+
+Query_1  4266       CTTCTAAGGCCTGCTGCACGGCTAACTGATGGAAAATAAAGCCTTTCTCAAGTGCTAACT  4325
+22       11469019   ..................T.............G.................-......-..  11469076
+
+Query_1  4326       GGCAGTAGTGTGGGGGAGATGCCTTATTAATAAAGCCCTAATGTGGCAGGCTTGGCCTAA  4385
+22       11469077   ..................GAT...-....-..........-.......T...-......-  11469132
+                              \                                                 
+                              |                                                 
+                              G
+
+Query_1  4386       GTGCCATAAACTGTGTGTTTCGATGTGCTTCTGCAAAACTTAACCCCTGCAAGACTGATG  4445
+22       11469133   -........-...................-.......-...TG........-........  11469188
+                                            \                                   
+                                            |                                   
+                                            T
+
+Query_1  4446       GATAACATGGCGAGATGGAGCATGGATTCAATTTCTAAAAGGAAATGAGGATATAAATAT  4505
+22       11469189   ..-...-.......................T........-..................-.  11469244
+
+Query_1  4506       CATTTAAGAATGAACACGCCAATTTTTCTTGCTCCGTTTTCCTCTCATAATAAACGGTAG  4565
+22       11469245   ..........ATG..............................................-  11469303
+
+Query_1  4566       GCAGCTTGCCAGGAATTTTTGTGAAAATAACACTTGcttttcttctttcttcttcttctt  4625
+22       11469304   -.....-.................................-......-............  11469359
+
+Query_1  4626       cttttttATTTATTCCTGCTCAAATGTTATAAAATATCCAGAGCGCAGTTTTAATATCAT  4685
+22       11469360   .......T....A...............................-.....---.......  11469415
+
+Query_1  4686       ATTTGGGCCATCTCAGCTGAGGCGAACTCACTAAAACAAAATGAGGATCTGTCCAGCCAC  4745
+22       11469416   .....--............................C--................--....  11469469
+
+Query_1  4746       TTGACTGCTGAAACAATGATAGCGACACGGGCTGCAACATTACTTCACCAAATACCAGGA  4805
+22       11469470   .-.........--.......................................-.......  11469525
+
+Query_1  4806       GAAAATATATAACCCATTTTACTTAATGGACTGCGAGCTATAAATGTCATCAAGTTTAAG  4865
+22       11469526   ...................-.............--........-........G--.....  11469579
+
+Query_1  4866       TGAATCCTGTGGAAATAAAGGAACAAGATGAAGTAATTGCTTAGCCAAAACATTTACGGA  4925
+22       11469580   ...........--.....-.......................--................  11469634
+
+Query_1  4926       ATGAAAGTAGAGCTTGCAGGCAGTGTACTGGTCTCTCCTGGGGTCCGTCACTGATAACCT  4985
+22       11469635   .....-.........-..--.....-.........--.........--............  11469685
+
+Query_1  4986       CTTTTGAGCAGTTGCTCTTCTGTGCTGGGCAGAGATCCTTTCGCCTGGTGTCTTAAGTGT  5045
+22       11469686   ...........................--.............-.TG..............  11469744
+                                 \                                           \  
+                                 |                                           |  
+                                 T                                           G
+
+Query_1  5046       TCGTTCACTCACTGACATTGAGGTGATCCAACGGCACTGTGACTGGCTCGTGGGTTGCCA  5105
+22       11469745   ..............G................ACC..........................  11469806
+                                         \                        \             
+                                         |                        |             
+                                         A                        G
+
+Query_1  5106       TCTTGGTTTGGTTTAAAGCACAGCAAGCTGGAATTAGAAACCTGCCTGTAAACCAACCAC  5165
+22       11469807   ................-........-.............-...-.......C.--.....  11469860
+
+Query_1  5166       AACAGATTAAAATCAGCAGCGGCGTAGTGGGCCAACTATGGTTAAGGCTTTTAAGGGGGT  5225
+22       11469861   .-.............C..CA.........--...............-.............  11469917
+                                         \                                      
+                                         |                                      
+                                         C
+
+Query_1  5226       AAAGTCAGTCTTCAATGCTTCGAAAACACACTGGTCTAAATGACCTGAGCACAAACTCCA  5285
+22       11469918   ..............-........................-..............-.....  11469975
+                           \                                                    
+                           |                                                    
+                           A
+
+Query_1  5286       GAAGTCAGCTTGCTTGCCTAGCAATCCGAACAGATGCATGCGGGGCTTTGGAGGTCACTG  5345
+22       11469976   ........GC........CT...TC..--..................G-...........  11470033
+                                                         \                      
+                                                         |                      
+                                                         G
+
+Query_1  5346       CAGGGCTTGGGTGCTGAAGCGACGTGCCTTCACCAGCAGGAAGGTTGGATGCTGGTTCTG  5405
+22       11470034   .......-.........GCG.....................-..................  11470091
+
+Query_1  5406       GAGGTGCTGAGCACGCCCAGGGATTGGTCGCTAGTTTACAGCATGACTATAATGCAGCAA  5465
+22       11470092   ..............C.G.G..--......-..-..G.......G--............C.  11470146
+                                                                        \       
+                                                                        |       
+                                                                        A
+
+Query_1  5466       GCAGGACCAAGAAGTGACACAAAGTGCGGTCATGTATCCCAGCTGGGACAAGTTTCAAAA  5525
+22       11470149   ...............................-..................-.........  11470207
+                    \                       \                                   
+                    |                       |                                   
+                    CA                      C
+
+Query_1  5526       CTAAGTGAAGAAACACTTATGGCTAATGTTTGCAAGCGGTCACACTCTTGACTGGCTGTG  5585
+22       11470208   .-............................-...-........T..-.G.....-.....  11470263
+                                          \                                     
+                                          |                                     
+                                          G
+
+Query_1  5586       GGACAGCAGCAGGAGCGCGGTGTGCAGTGCGTGCAGCTGATCTTCCACCTGGCTTTGGCT  5645
+22       11470264   ............................................................  11470323
+
+Query_1  5646       TTTTTCTTGAGAGGGAAAATGAAATGGGAGAGAAAAGCCAGAAGCAGTGAGCCATACCCA  5705
+22       11470324   ............-..CG....-.................................-....  11470380
+
+Query_1  5706       CCAGCACAGCAGAGAACGAAGGGCCCCACCTGTCAACGATGTGGCTTGCTGAGGCTGCTA  5765
+22       11470381   -......................-..........-.............G...----...C  11470433
+
+Query_1  5766       TCACATAGAGACCTCTCTTTGCTGCCACAATTTCAGGGTGATTGATTCATCTGGGGATTT  5825
+22       11470434   ..-........-...........-..............GTG...................  11470491
+                                                                 \              
+                                                                 |              
+                                                                 G
+
+Query_1  5826       TTCTGAATTGAGGAGCATAAAGGCTGTTTGAAAATACATATTTTCTCATCCTCTGAGAGT  5885
+22       11470492   ......--......................-......CAT....................  11470550
+                                          \                                \    
+                                          |                                |    
+                                          T                                A
+
+Query_1  5886       TGTTTTCCTGAATCTTTGCAGCTCCTTGATGCTGCCTGTGACAGAGAACGCAGAACACAC  5945
+22       11470551   .......................-.........................-........-.  11470608
+                                                  \                             
+                                                  |                             
+                                                  G
+
+Query_1  5946       AAGTTTTGGAGGGGAGCATCCTTGGAGATGCCCCCGTCACTGCTGTCCCAATCCGGGCAG  6005
+22       11470609   ...--..........-....--.......C....A...-.......-...C.........  11470661
+
+Query_1  6006       GGTTATATTTGAAATCAGATCAGGCCACCACCAACAACAAATAATCGTTTACCGCTATGG  6065
+22       11470662   ...............................---....C..............-..-...  11470717
+                                                                  \             
+                                                                  |             
+                                                                  G
+
+Query_1  6066       CTGTCCATTTTGTAGAGGTTTCTGCCTCTGTAAGGCCACAACAATGGAATGAAGCCAGCA  6125
+22       11470718   ....-...........................--.....-.....-.......T......  11470772
+
+Query_1  6126       TTTGGTAGCAACGAATGGGACAGGAAGTTATCAGCAGGAAGCTCAATGAGACGAGTCAAG  6185
+22       11470773   .......-.....................-..............-............-..  11470828
+
+Query_1  6186       CTGTGTGCAGGACAGCCCGCCTGCCTTGTGCATGGCAACTTGCAAGGGGCCCATGCCCCC  6245
+22       11470829   ...................-....T.G..........CT.G.............-.....  11470887
+                                                 \                              
+                                                 |                              
+                                                 G
+
+Query_1  6246       ATTGCCAATCTCCCTCGCCGTCCCCACTGCCGGCTGCTGAAGGCCGTGGGTCCCGACAGT  6305
+22       11470888   ......-.......CTC.................................A...-...C.  11470946
+                                                 \                              
+                                                 |                              
+                                                 C
+
+Query_1  6306       GTGTGCAGAGCAATGAAACGAGATGTTTGTGAGGCTGTGCTGGCGGGGTCAGAAGACGCC  6365
+22       11470947   ...........-.............................-..........-....-..  11471003
+                     \                                                          
+                     |                                                          
+                     T
+
+Query_1  6366       CGGGGTGGGGGCTGGGAACTGGGAATTGTGTGGCAGCAGCCCAGTACTTAGCTAAGCAAG  6425
+22       11471004   ......-............-.........---.........--.......-........-  11471054
+
+Query_1  6426       AATTAGGGCAGCCGCTTCGCTCGTCCTGAACTCCCTCCTTCATTATCCTTTGCGCAATGC  6485
+22       11471055   .....--......-....-........-....--.......C..................  11471108
+                                          \                                     
+                                          |                                     
+                                          G
+
+Query_1  6486       CCCTGTCGGCCCTTCTGCATCTAAATTTTTATATTCCCCTCAGCAATATAATTTGCACAA  6545
+22       11471109   .......T........-.....-G...........T.............T..........  11471166
+6        69139442                                                            ..T  69139444
+3        10466920                                                      ........C  10466912
+11       6200646                                                            ....  6200643
+8        30662014                                                    ...C.......  30662004
+
+Query_1  6546       TGTTTTTGTTGGGttttttttttttttttCCCACATGCTGTAATTTTTGCTGGATACTTC  6605
+22       11471167   .............----.....................--.T..................  11471221
+                      \                                                         
+                      |                                                         
+                      T
+4        130899585   ...........T...................                              130899555
+6        69139445   .............................                                 69139473
+3        10466911   ............C......G......G..                                 10466883
+2        40293622   .............................                                 40293594
+2        15240220   ............................                                  15240193
+15       12748692     ............................                                12748719
+13       8468184    .............................                                 8468156
+10       18111385   .............................                                 18111357
+24       861272     .......................C.....G...                             861240
+11       6200641    ............................                                  6200614
+                    \                                                           
+                    |                                                           
+                    C
+8        30662003   ........-...............C..                                   30661978
+
+Query_1  6606       ACGTAGAGCTGAAATGTTGAGTTCTTAATGCCATCTAACTTTAGAGGTTTCTGGTCTTAA  6665
+22       11471222   ....T.-..................---.T.........-..................--  11471274
+
+Query_1  6666       CAAATCGTGCTCTGGAAATTTTTTAAAGTGTTCTTAAATTAACAATGGCAACTACTGGAA  6725
+22       11471275   -.C...-...........A....--.....--...-........--T.............  11471325
+
+Query_1  6726       AGGGAGAGAAAAAAGGAAATAGACGGGGGAAGACGATATTCTTTTGTCTGATGGAGTGGA  6785
+22       11471326   ........-...............-------.............................  11471378
+                                                             \                  
+                                                             |                  
+                                                             T
+
+Query_1  6786       GAGCCGTGCATACAAATGCAGGAGAAGGGCTCATCGGGAGATACTGGGTCGAGCCACCCC  6845
+22       11471379   .......................A..................-.......---.......  11471437
+                              \     \         \                                 
+                              |     |         |                                 
+                              G     C         G
+
+Query_1  6846       AGGCCCTGTGCTGGGTGCCACTTCCAGGTAGTGCCCAGAAAGGTTCCTAGCAGCGCACGA  6905
+22       11471438   .-...............................-........................--  11471493
+
+Query_1  6906       CTCCCTGCGTGCCTTTGTGCTGCAGTGGGAGGAGAGACCCCTCAGGATGTCCTGATCTGA  6965
+22       11471494   .....................-.....................................-  11471555
+                      \    \                  \                     \           
+                      |    |                  |                     |           
+                      G    C                  G                     G
+
+Query_1  6966       AAGTGGGATAAATTTCACGCTCTGAAGGAAGCTTTTTTCCCTCCATTTGCTGCAGAGGGA  7025
+22       11471556   .................-......-...................................  11471614
+                                                   \                            
+                                                   |                            
+                                                   C
+
+Query_1  7026       ACCTAAAAAGCTACTGGTGTGCACCAACCTTGTGACAAAGAGAAGCTTTGTGGGAATCTG  7085
+22       11471615   ........--.....-....-.........--G.............-.............  11471667
+
+Query_1  7086       GCAGCTAGAGCAAGGCAGCTCAGTAACACGCATAAGTATAACAAATTATAATGCTAGGAA  7145
+22       11471668   CAG..........-..............--.C............................  11471724
+
+Query_1  7146       AGCCTACTTCTTCTGGTTTCTTAACACAAAAGCCTCTCTGCACTGCTGAGTATAAACTAT  7205
+22       11471725   .AG.C......................-.........---.............-C.....  11471781
+                                    \      \                                    
+                                    |      |                                    
+                                    A      C
+
+Query_1  7206       CAAGCGAGGCAAGAGCTGAATGACTTGAGGCTTCTTTTTTGTAAACAGCAGAGATGGACT  7265
+22       11471782   ........--C..................--C..........-.................  11471838
+                     \                \                                         
+                     |                |                                         
+                     A                A
+
+Query_1  7266       GTAAGCAATCCAGCACTGCTCTTCTGGAACAAATAAACAGGCAGGGATCTCTGGTTAGAG  7325
+22       11471839   ...............................................C....-......-  11471899
+                          \                  \                                  
+                          |                  |                                  
+                         AA                  G
+
+Query_1  7326       GCAATGCTTATGGAAACCTAAAGGAAAGCATTCAGGCCTGACACTTTGTTTGGCAAAGGA  7385
+22       11471900   ...........................--C.....................-....G.A.  11471956
+
+Query_1  7386       ATGGAGAAAGAATGAAGGCGCAGGCTGGGCGTGGGTTTTGCCCTGTTGGGAGTGCTCTTC  7445
+22       11471957   ......-............................G...........--....T......  11472014
+                                          \                                     
+                                          |                                     
+                                          G
+
+Query_1  7446       AATGGAGTGAATACTGTGCACAGCTGTGCATTGTTGTGTGAGCTGCCTCACTATAGCCAG  7505
+22       11472015   ..............................-----.........................  11472070
+                       \                                                        
+                       |                                                        
+                       G
+
+Query_1  7506       GATCTGGCGGAAGAATTATTTTGAAGGGGAAGGAACTGTGTGGCATTTAGCTGCCTGGCT  7565
+22       11472071   --................-.........A...............................  11472128
+                         \                                                      
+                         |                                                      
+                         G
+
+Query_1  7566       TCTAAAGCAACAATGCCTTGTGGATTAAGATAGCAAAAGGCTGAACACCAGCAAAATGTC  7625
+22       11472129   ......-......-.................------------------...........  11472169
+                                         \                                      
+                                         |                                      
+                                         G
+
+Query_1  7626       TAAATATAACaaaaaaaaaaaaaaaaGGAATTCCTTACCCCAAACCTTTCCAATAGGCCC  7685
+22       11472170   ...T..----.C.......................AC..............-.....-..  11472223
+
+Query_1  7686       AAAGAAAGTCTTAATGAAGATTGTGGTGTTTTTAAGGAGAAAACTGCAATTGGCAAGAGG  7745
+22       11472224   ....--......-....--.A...........--...............-.A....AG..  11472275
+
+Query_1  7746       AGATGGAAGTCATTAGGGGATTTTAAATCAGCCAAAGCCGCTGGGTGGGACAGGCAGGGC  7805
+22       11472276   ..................................---...............-.......  11472331
+
+Query_1  7806       TGTTTTTGCTGGGCTTGCAGGATCACCCTCTCTTTCAGCTACCCCCATCACTTCACATAT  7865
+22       11472332   ..--.C........-..........-......-...........................  11472387
+                                       \                                        
+                                       |                                        
+                                       G
+
+Query_1  7866       TTCCCAGCTGGCCCTCTCTTCCGCTGCGCTATCCCGCCCTATTCTCTGCTGCCCCTGTTA  7925
+22       11472388   ....AT...-............-....C.......-....TA........---.......  11472441
+
+Query_1  7926       CATTCTCTTTCCAATTAGATGACCTTTGGATAGCCACACTTTTTTCCTCGCAACAAGGCA  7985
+22       11472442   ..-.........-.........-..........................-.......--C  11472495
+
+Query_1  7986       ACGTAAATTCCATGAAGAATAACCGTGTCATTTGGCCATAAGCTGTGGCTTTGTTTCTGC  8045
+22       11472496   ....--.....-.....-......-........-.....-......-..........CCT  11472547
+
+Query_1  8046       GCCTGCCCTAGTTGGCTGGGTTTATCTCTGGGGCTTTCTTTCTTTTCCTGCTGGCATGTG  8105
+22       11472548   C........-..--......-...........C................T...C.....-  11472603
+                                                  \                             
+                                                  |                             
+                                                  A
+
+Query_1  8106       GTTTGTGGCAGCTCAATTATCGCGACCACAGAGCTCTGTGCTGCTGCCGATGAACGCCTA  8165
+22       11472604   ......-........--..---.C........................-......-....  11472655
+
+Query_1  8166       CAGCTACCCGGCAATAGCAGGGCTCAGCCAAGCCAAGTGGGTGACAACAAGCCAGCATCG  8225
+22       11472656   .....C..---...................--G...............-..........-  11472708
+
+Query_1  8226       GCCACTGCTGGTAAAAAGAGCAATAACAACTCTATACATTGTATTTTGTGAAAGCCATTC  8285
+22       11472709   ...........GT...G.......-.........AT..--...A............T.--  11472764
+                            \                                                   
+                            |                                                   
+                            T
+
+Query_1  8286       ACTCGCAACAGAGATTTCGCTGCTAACAAAATCTGACTCAGGAGGCCGCACCGTTTGCAA  8345
+22       11472765   -.....-...........-.....-..............---....T...........-.  11472817
+                                                     \                          
+                                                     |                          
+                                                     A
+
+Query_1  8346       GCAGCCCAATCCTCAATGGGTGGATGTTTTTTCACCAAACAGGGACGCTGAATCCATTGC  8405
+22       11472818   ........TC.T..............-.........C........-............-.  11472874
+
+Query_1  8406       AGGTATTTGTGCAAGCCAGCGTGTCAAGGTGTTGTTGTTATGGTAAAATCGCTATGGGCA  8465
+22       11472875   ...............-............................-..C..-....--...  11472929
+
+Query_1  8466       TTAGTCTTGATTCCACAGAGCAGTGCAAATCTGCACGCTGTGGGTTTAAAAGCAGGCCCG  8525
+22       11472930   ...................-........T......................-..-.....  11472986
+
+Query_1  8526       TGCTGTGGCGCCAGCGCAGGCTAGCCGCACGGTGGGTCGGGTACAGCCTGCACGTCCACA  8585
+22       11472987   .......--C...........-............----T......A.............-  11473039
+                                               \                                
+                                               |                                
+                                               A
+
+Query_1  8586       ACCAAAGGGCAAGGGCTGCCTGCTGCCAGTAGACAGAATTAAAGGTGTTTGAAGGGAAAA  8645
+22       11473040   .....--...-....................C...............-....--..G...  11473094
+                                              \                                 
+                                              |                                 
+                                              A
+
+Query_1  8646       ACAGCACCTCGGAAATATTTCCCGTGGAACAAACGAGTGGAGACAGTCCACCTTTCCTTG  8705
+22       11473095   .................-..............--C.........-...............  11473151
+                                                                           \    
+                                                                           |    
+                                                                           C
+
+Query_1  8706       AAGCATGTTCTCCCGTAGCTATGAGACAGACACCTACAGTGGtttttttttCCCTTATAA  8765
+22       11473152   ..-...-....-.........................T.............-......-.  11473206
+
+Query_1  8766       AATTAATTCAGTCTTCGGTTCTGCAGGTAATCATGAGTCAAATAAAGAGACTCCGCCGTG  8825
+22       11473207   ...........C...-......-......................CA.....G.......  11473266
+                                                          \      \              
+                                                          |      |              
+                                                          C      G
+
+Query_1  8826       CTAAATTACAATGATTATATATAAGCTGTGATGCTCGTATGCGGTTGGCCTGAGGGAAGG  8885
+22       11473267   ..-............--.........................A.G.-.............  11473322
+
+Query_1  8886       CCACCTCAATGCCAAGTCTGTCGAGGGTTTTTTCCAGAGGCTTGTACACGCCACGTCAGA  8945
+22       11473323   ......TC..-...............------.........-.....G.-..........  11473373
+
+Query_1  8946       GCTTCCTTTGCACATTCCCAAAAAAGAGCATCAAGAAGTGAACATCGCGCAGGCTGTGGA  9005
+22       11473374   C.............-..........................C...--.C..........G  11473431
+                                                 \                              
+                                                 |                              
+                                                 A
+
+Query_1  9006       ATGAACTTTCTCTAACCGCACAGGCTCCAAACAGCTTTGTACTGCCCAGTGGCTGCCTCC  9065
+22       11473432   ......-........-......-........GCA..........................  11473488
+
+Query_1  9066       GACCCGCTGGGCGCCTTCACAGTTCATAGCTGTCACCCACTGGCAGTGTCCCATAGGGAC  9125
+22       11473489   .....-......-..............-.......-.....-..................  11473543
+
+Query_1  9126       CTCTTCACTTGCCCCTTTCCTTTCCAGGTTTAATCTGCTGTTTGAATTTCTCTCTGGATG  9185
+22       11473544   ....--C......................................T..CA..........  11473601
+
+Query_1  9186       ATGAAAGCAGCTCAGGGCCTCAAAAGTGCAGGCATTAAGGATGCCAGAACCACTGAGGCT  9245
+22       11473602   .--G..........-......---......-.............................  11473656
+                                                                \           \   
+                                                                |           |   
+                                                                A           G
+
+Query_1  9246       GTTGCTCCAGCATCCACTGTTGCCTCGAGGCTCCAAAAACATTCCGTGGATGTTGCGCCC  9305
+22       11473657   ..................................-.......C..CCA..C....---..  11473713
+                                         \                                      
+                                         |                                      
+                                         G
+
+Query_1  9306       CAGGGGACTATAAATTTGCTTCTAAATCTCGCGCGGACCTTTTGAATGGACATGACATTT  9365
+22       11473714   ........................TC....---.....--......-.....-.......  11473766
+
+Query_1  9366       CTCCTTAAATAGACGCTTCTCTGTTTTCATTCCCGGTATTTTAATCTGAGCTTGACCACT  9425
+22       11473767   TCT...........-...................-T.....--........-...-....  11473821
+                                                                   \            
+                                                                   |            
+                                                                   G
+
+Query_1  9426       TTAACGCAGTTGGAAGCAGGCCAGGCATCTAAAAAACAAAGAGAAAACGGCGAGTCCTTG  9485
+22       11473822   ..................-........-..-.................--..........  11473876
+
+Query_1  9486       ACTTCTTCTGAAGAACTCGCAAGGCCTGATGTTTAAAGGAGTaaaaaaaaTCCAACAAAC  9545
+22       11473877   ...........--G.......--.....-.....-......A..................  11473930
+
+Query_1  9546       ATAGAAAGTTGCTTTTACGAGATTTGTCCTCTTTGGCTTTTTCTAAAAACATCAAAGCAT  9605
+22       11473931   ........-.........-........-.........-......-...........-..-  11473983
+
+Query_1  9606       GAGGCGAAGACTGGCGGGTTTTTCTATTATCATGAGATCCTaaaaaaaataaagataaaa  9665
+22       11473984   ..-..A..............C.......-....................A..........  11474042
+                                                                          \     
+                                                                          |     
+                                                                          A
+
+Query_1  9666       atatttttttaaaaggaaagaaagCCAAGGAACAATAAGAATCAGTGCATGAGGTGCTCC  9725
+22       11474043   .....------.........-..............-........................  11474094
+
+Query_1  9726       TTCGGTTTCTTGGAAAATGTGCTGTTGAGGCTCGAGACGGCTTGTCTGCATTGCAAACCT  9785
+22       11474095   ........................-..................................-  11474153
+                               \                                                
+                               |                                                
+                               G
+
+Query_1  9786       TTCAACTTGGGCTTTTGAAACACATTTAAACTACATACTTGACCCTTTTTGTGCGGATGA  9845
+22       11474154   ....CT.....................-.................--...........--  11474208
+
+Query_1  9846       AATGTGCCTCCCaaaaagaaaagcgagggaaggaaggaagaaaagaaaCTTGGTTTTGAC  9905
+22       11474209   .........-........--...........................--C........-.  11474262
+
+Query_1  9906       TGCCTATTATCTTCAAAGACCGGTAGCATTTCTGCAGGCTTGCTGGGTGAGACTGGGGAA  9965
+22       11474263   .-...................-.C..............GC...........-......G.  11474319
+
+Query_1  9966       GGGCTCAAGCCTACACTCCCCTCCGGCGCGTGCTGGGCAGCTGTGCCCTGGCTCTGGGGG  10025
+22       11474320   A.....-.....--C.....TC..C..---.......-......................  11474373
+                                                                           \    
+                                                                           |    
+                                                                           G
+
+Query_1  10026      CTCCGTTCCTTACCCAACGCGCTCGCAGTGCTACCTCATTGGCAGTGGGCAATGAGGCTC  10085
+22       11474374   ...........-......-....--......-........-..............-....  11474426
+
+Query_1  10086      AGCGGAAAACCGTCTAAAAAGCTGAAATCAAGGCCTTACCGCTTCACGTTCAAGTACTGC  10145
+22       11474427   .....-.......TCC...G.................-..A...................  11474484
+
+Query_1  10146      AATAAGGCAAAAAGTCAGTACGCAAGGGGAGAGTGGTAAAGATGTCCAAGACATCCAGAA  10205
+22       11474485   -.......-...........--.C.............-C.....G..-............  11474538
+
+Query_1  10206      ACACTGCTGAGCCAGGTGGGGTTAAACGACAGGCACTTCCTATGGCGATTTCTCACAATC  10265
+22       11474539   .....-...............-.........-.....................--.C...  11474593
+
+Query_1  10266      CTGGGGAGCTGCTGGCATGGGCTGCCAGCCTGCTTGCTCTTGCTCCGGCAACAGCGCGGA  10325
+22       11474594   ..........-..-....-.....-..............-C........-..........  11474647
+
+Query_1  10326      CTGGACGGAGGCCGGGGCTGTAAGGGGCCCGAAGCACAGAGGTGTGACGGTGCTGCTGTC  10385
+22       11474648   ...--...G..............--......-............................  11474704
+                                \                              \                
+                                |                              |                
+                                A                              G
+
+Query_1  10386      AGCATAGGCAGCAAAGGTCACGGAAAATGAGGGGCCGATGAGCAGAAGACAGGGCAGCGT  10445
+22       11474705   ............-.......G.---........--..........-..............  11474759
+                                                                       \      \ 
+                                                                       |      | 
+                                                                       G      T
+
+Query_1  10446      GGGAAGCCAACCAGCAAGGCTTGAAAATACTCAGAAAAGCAGACTGGGTGTTGTTTGGCA  10505
+22       11474760   ...-........-...--................-........................-  11474814
+                                                                        \       
+                                                                        |       
+                                                                        G
+
+Query_1  10506      AAACAGTGCCCTCATCCATCCCAAGGCACGCATCCGCCATACCCTCTCACATCGTGAGGA  10565
+22       11474815   ...............-.......--....A.C.-......C...................  11474871
+                                                                         \      
+                                                                         |      
+                                                                         G
+
+Query_1  10566      CCGGCAAGACTGGCAACACACAGCTGATGGCTACAGCGCCCTCAGATAAGGACTTGGGGG  10625
+22       11474872   A.--AC.....-....................-....-.T...............-....  11474925
+
+Query_1  10626      CATTTTATTTCAAGCGTGAGTTTCTGAAGCTCTGAAGCCCCAGAAAGAGGAAAGCGAAGC  10685
+22       11474926   ..-G................-................-.....-.........A......  11474982
+                                   \                                            
+                                   |                                            
+                                   A
+
+Query_1  10686      GGGTCCTCAGGCAATGAAGAGTGCATCACAGTGGGCCGCTTCTGTTGGCAGCCGATGTGA  10745
+22       11474983   .......G..--C..........GC....-.......-............--.C......  11475036
+
+Query_1  10746      GCCTGGCGGCAGGCATGCAAGCAGGCGCAGAGGCTGGCGCCGAACGCGTCCCGACTGCAC  10805
+22       11475037   .......-............-..........-....CG....................-.  11475092
+
+Query_1  10806      AGCTGGACTTCAACGCAGACAGCCAAAGGTGAAGATCATTATCGTCCATGCCTGAGAGCA  10865
+22       11475093   ..............-..................-...-.....-..............-.  11475147
+
+Query_1  10866      AAACAGGAGGAGATGCAGATGGTCAAATAAACGCATTGCAGGAAACAAAGTAACGGCTTG  10925
+22       11475148   ........................C.......-...................--C.....  11475205
+                                           \                                    
+                                           |                                    
+                                           C
+
+Query_1  10926      AGTAAGGAGGCAAGGGAAAAGGAGGAGCGAGAATTCCTAATGTCAGTGATTGTGTTAAGA  10985
+22       11475206   .-......-.................-.................................  11475263
+                                                                            \   
+                                                                            |   
+                                                                            A
+
+Query_1  10986      CTTTGACCATACCTTTATGGGAAACTGCATAAGTTAAAATATAAATAAACTGACTTTAAA  11045
+22       11475264   .............-...............-..............................  11475321
+
+Query_1  11046      ACACTCAAAATATTGCGCAAACAGATGGTGCTGAGTTGAATTTAAATTAGCGCATCCTGT  11105
+22       11475322   ..-...--........---.....-........................---.C......  11475372
+                                                 \                              
+                                                 |                              
+                                                 G
+
+Query_1  11106      AATTCTTGAATGTCCTGTATCGGCTCTAAGAAAGGCGTGATGCTTTTTGTACCTCTTAAC  11165
+22       11475373   .............-...-..--...........-........................--  11475426
+                           \                                                    
+                           |                                                    
+                           G
+
+Query_1  11166      GATAAACTCTACCTGGTCATTTTCTGAAGGGCGGTAATTGATTTTAAGGCTTTAAGGCAA  11225
+22       11475427   C..-......-.................--...............-..............  11475484
+                                      \                \                      \ 
+                                      |                |                      | 
+                                      A                A                      A
+
+Query_1  11226      AATCATCGGTCTGTAAACTGGCCTCCATTTACCAAGAAGAAAGCAGGGCCTGGCATCAGG  11285
+22       11475485   ..............-......-....--...........-....................  11475541
+                           \                                           \        
+                           |                                           |        
+                           G                                           G
+
+Query_1  11286      AAGGGCAAGAGGGTTCCTCTCAGAGGCTTCCCAGAGATCCGAGCCCTTTTCCTCCCAAAG  11345
+22       11475542   ......-..............................................--.....  11475599
+                                              \                                 
+                                              |                                 
+                                              C
+
+Query_1  11346      TCCCTGAGGATGGAAGCCAAGAATATGGCTGGGAGCAATCTCAGCAGGGCCTGCCAATTT  11405
+22       11475600   ................-....-..............-..................-....  11475655
+
+Query_1  11406      CGCTTGCTGTTGATCTGCTGTACGGCAGCGCTGAGAGGGAATACAATTCCCCAGCAAATA  11465
+22       11475656   .-...-.....T...........-..................--C..........-....  11475709
+
+Query_1  11466      AATCAACTGTAAGGTCTTGTAGCACACAAATCAAACATAAAATGCCAATAAGACTGTGTT  11525
+22       11475710   ....-.....-.........---...............--.......--T..........  11475760
+
+Query_1  11526      GTTTCATTCTGCTCTTTGCATTCTGGAGAGACCTGTTTGGCTGGAGAAAAAAGGTGCTGC  11585
+22       11475761   .-....-.................---........-..........-.............  11475813
+
+Query_1  11586      TCACGAACAGTGCAAAAGCAGACAAGACGCACACGTCTGAGGCCTAATTTGAAGGTTTTT  11645
+22       11475814   .............-.........-.............--........-.....A.G....  11475868
+
+Query_1  11646      GCTTTGCCTTTAGCGCATCTGAAAAGGAATAGCATATTAACATCAGTAGGAGCACGGTCC  11705
+22       11475869   ............--C...............-.T.....-.........A......A..-.  11475923
+
+Query_1  11706      TAAAGGCTTTGTGCACTTCGGGATAAGTCCGCTTGTATTACCTGCAACCTCTTCTGTCTT  11765
+22       11475924   ..---........................--......-G.........--..........  11475976
+                                \                                               
+                                |                                               
+                                G
+
+Query_1  11766      ACTGATCAGAATTAAATGCAGTAAATAATAATATGGCTTCTAAATGAACACAGAATGATT  11825
+22       11475977   .............-........-...........-......-.C................  11476032
+
+Query_1  11826      CGGTAAACCCGGTATGTATTTCTGGTTGATTTCTTTTTCTCCTCCCTGAGGTGGTATATA  11885
+22       11476033   ...........................................-................  11476092
+                           \                                                    
+                           |                                                    
+                           C
+
+Query_1  11886      AGACAAATGTGAATCTAAGGGACACTGGCTAGACTGGACTGCTGATTCATTTTCTGATTC  11945
+22       11476093   ......--..................-CT......-.............-..........  11476147
+
+Query_1  11946      ATAAAAATAAACAGATAAAGCAAGACATAGTGTCTGAGCCAAACAGCATTTACTCTGTGG  12005
+22       11476148   ................--...........-..............................  11476204
+
+Query_1  12006      GAACATGTAAATGTAAATAACACTCTTTAACAGGGTTAAACAATATAGCCCATCTGATTT  12065
+22       11476205   ..............-....................................-........  11476263
+                                                                 \              
+                                                                 |              
+                                                                 T
+
+Query_1  12066      GTCATTATTAGTGCACTAATTCTAGTTTCCATGAACATCACTGAAAATATATGGCACGCA  12125
+22       11476264   ............................-..............................-  11476322
+                                 \                                              
+                                 |                                              
+                                 T
+
+Query_1  12126      AAGAAACAACTACGCATAATGTGAGCACAATACCATCTGTCTTTACAGAAAAGAAAAAAC  12185
+22       11476323   .............-...............--T............C.....---G......  11476376
+
+Query_1  12186      AGGCTTGGCAGGGACTGCAGTTCTGCAAAGGATTTGAACAACAACTTTTTTAATTACATT  12245
+22       11476377   ..........................-.......................--...-....  11476433
+                                                        \                       
+                                                        |                       
+                                                        A
+
+Query_1  12246      AAAATAGTGGTTAATGGTCTGAAAAAATGACTGGGGGAGAGGAGGAGGGAGGGAAAAAAT  12305
+22       11476434   .....-......-........-....TG................................  11476491
+                                                    \                           
+                                                    |                           
+                                                    G
+
+Query_1  12306      AGCTCTCTCATTACAAGACAGCGCTTAGCGAATTTCAGTTTGTCTTCACATTGGCAAATA  12365
+22       11476492   -.A...........-..............-....C............-.........---  11476544
+
+Query_1  12366      CTGGGCACTGACAGATACTATCGGCTTGTTACTGCCACCATCCGAAGCCAATGGAAAAGT  12425
+22       11476545   -.CT................-...............C...-...................  11476601
+
+Query_1  12426      TCGCCACGTTGAAATGAGTGGGAGAAAGACCGAGCCCCAAATCTGGACTGCTGTCAACAG  12485
+22       11476602   .--..C.......TGC...............AGC..........................  11476659
+
+Query_1  12486      AAGGGGAGCCCAATGGCAGTATTAAAATGGAGCAAATTTGGTTCTTTCTTCCCGGCCGCG  12545
+22       11476660   -.......-...........C.--.......................TC.G..--.....  11476714
+                                                             \                  
+                                                             |                  
+                                                             T
+
+Query_1  12546      TGTCAATCAGTAACCATTGCCAGCTGATCAACGTGATGCTGGGCTCTTCATGGCTCTGAG  12605
+22       11476715   ....-C......--...............-..TG...-......................  11476769
+
+Query_1  12606      GAGAGGCAGCCCGTCAGATGCCGAGCTGGTGGAAGTCCGAGGCAGTGTGAGCGCCGAGCA  12665
+22       11476770   ....-.......A....-..............-...........................  11476826
+
+Query_1  12666      GCATTCCCGCTTTGCAGAAGGTGATGGACTTTGGCAAACAGATCCGTCGGCTTCAGGCCA  12725
+22       11476827   .............................................-C.............  11476886
+                            \                                                   
+                            |                                                   
+                            G
+
+Query_1  12726      GGGCACAGCTGCCACGCGGGGAGACAGTCAGCGTACTCCAGGTATCGGCGTGTGTGCACA  12785
+22       11476887   ...............-...---....--....-..........G..--............  11476937
+
+Query_1  12786      CGTCAAAGGCAGGGTGCCATGACAAGGCCTTGTCTCGCAGCACATCCCCATACTCGCCTC  12845
+22       11476938   ---.C...............................-...........----...C....  11476989
+
+Query_1  12846      CCCGCTGTCCGCTGCACCATGTCTGTGGTTTTTCTTTTTCTAAACGAAACAAACCCAATT  12905
+22       11476990   .T...---........................--C.......................-.  11477043
+2        24811808                                  ...........G..T..............  24811779
+                                                       \                        
+                                                       |                        
+                                                       C
+
+Query_1  12906      TCCTACAAACCTTTTCTTACAGGTCCCTGTTTTCCAAACCTCTACCAATTCCTGTTTACT  12965
+22       11477044   ......-.......C.........-..................TA.C.............  11477101
+2        24811778   --..TTC...........GT....-.A.......T........                   24811739
+
+Query_1  12966      CTCGCTCTGACGCTCTTTGCCGTCAAAATCTATGTCCATTCTAACATTCTGTGGGCCGTG  13025
+22       11477102   ...-.......-.....GC.A...--............-...C........-.T...-..  11477154
+
+Query_1  13026      AAAGCTGGGCATCCTGCTGGAATCGTGCTGGCTGTGGAATGGAGGATGTGAGTGCCAAAG  13085
+22       11477155   -............................-.......-..........-.T.A.G.....  11477210
+
+Query_1  13086      ACAAATTAGCGCCAGGAGCAAGGAGCTGAATGTTTAAAACTGCCATTTCCGCAGAGACAG  13145
+22       11477211   ..-.......-......-..........-......-...........AT.C........-  11477265
+                                                              \                 
+                                                              |                 
+                                                              T
+
+Query_1  13146      GCCTATGCTGGAGGGTTTTAGGAGAAAAACCGAAGCTGAACTGGGAGCTCAGTGAAAGCA  13205
+22       11477266   ....-..................T.......-.........................-..  11477322
+
+Query_1  13206      TCCCACCATTAAATTAAAATTACAGTACATTCTTAGTTATGCCCGAACTCTTAGAATTAC  13265
+22       11477323   -....A..------..........-...................-.........-.....  11477372
+
+Query_1  13266      ACCAAGCCCCAATTAGCCCTGGGCTTGTTGGCCTTGGCTCAGATATTCGGCCTCTACAAT  13325
+22       11477373   .......................GC.A...--................-........-..  11477428
+
+Query_1  13326      TCACCTCGACAGCAGGGTTTCGGGAGCACACGAGCAGTTCCCGTCCCCGCTCAGCTCTGC  13385
+22       11477429   .......--................A.....A.........---................  11477484
+                                                \                               
+                                                |                               
+                                                G
+
+Query_1  13386      TGCTCAGCCCCTGTGAGCaaaaaaaaaCTCCAGCATAGCGCTGGGTACGGTTGTGTCAAC  13445
+22       10894151                   ........CC...T.CA..A.............-..........  10894108
+                                                                              \ 
+                                                                              | 
+                                                                              C
+22       11477485   .................                                             11477501
+
+Query_1  13446      GCAATAATAAAGGCTGGCATTAGGAATTGCTTCAGAGGAGGCACAGGAACTCCCAAAGAG  13505
+22       10894107   ................-.........................G.....-........-..  10894051
+
+Query_1  13506      CTATCTTTGGCAAGAAGAGCATAAACAGTGTTTTCGTGATTGTTATATTGATAAAttttt  13565
+22       10894050   ........A......-..-........A.....-.........-......C-.T......  10893996
+
+Query_1  13566      ttCACTTCGCTTCCTCCCTTCCCCTGGCTTGTGAAATGCCTTTAGTGAAATGCTGGCTGA  13625
+22       10893995   ........CT.C......C.....CT................C......-.....-....  10893936
+                                        \                                       
+                                        |                                       
+                                       TC
+
+Query_1  13626      AAAATTATGTTGCCAAAACATTTTGGACAAAAGAATTGGGGTCTTTGGCTTCTTCATAAC  13685
+22       10893935   ..--.............-.G.......TG..-............................  10893880
+
+Query_1  13686      TTGTGGCTATTGTAAATTAATACAATGAATATTTTAAGTAAGATTAGTATTTGCTGTTAA  13745
+22       10893879   .....T........................................--............  10893822
+
+Query_1  13746      TTGCTCTCTGACAGCCCTTGTGTCCTTAGCAAGCCCCCAGTCAGAACTCCAACAGGAGGG  13805
+22       10893821   .............--............-...-...............-............  10893767
+
+Query_1  13806      TGCGGAGGCTGTTGGGGGTTCAGGCTGCATGTTGTGGAAAGGCATCTGCACCAAAGGGGC  13865
+22       10893766   C......-....-.......TG............-....T...-..............-.  10893712
+
+Query_1  13866      GGTGGGGCAGCAGCCTCAACCGCTGCTTGGAGTTCTTTTAGCCTCAATTCTAGATCTTGC  13925
+22       10893711   ......-..-.....CTC...--....-..........A--...................  10893659
+
+Query_1  13926      TTTTATGAACAGTTTTAATAGCTTTAGCAGGGAGTGACAGAGCTTTCCATAGTTCCCTTT  13985
+22       10893658   .....ATG.......--.......G-.................G..T.C.......T...  10893602
+
+Query_1  13986      TTGTGCTGTTGTGTCTGCTAAACTTTTGGCCTTAGAGTGGTATCTGCTCCTCGCATTGGC  14045
+22       10893601   ..............-...........--.......................-........  10893542
+                     \ \                                \    \                  
+                     | |                                |    |                  
+                     G A                                A    T
+
+Query_1  14046      TGGTGGGAAAAGCGGGAGTCATCCTGTGGCAGGAAGTCCCTGAATAAGCTGATTTTTCTC  14105
+22       10893541   .......................-..............TG-...................  10893483
+                                                     \                          
+                                                     |                          
+                                                     G
+
+Query_1  14106      TTGTAACAAAATGAAAGCTCGCATGATTCCTTTCATTAGAACCATTAAAATGGTGGTAAA  14165
+22       10893482   ....................--.....................CA...T---........  10893425
+                                             \      \      \                    
+                                             |      |      |                    
+                                             G      A      T
+
+Query_1  14166      AGTTACTTTCAAAAGGCCAGTCCTTCAACAGTGCCATCTCTAATGCAAAATAACCAAAAG  14225
+22       10893424   ..............A...........--................................  10893366
+                                       \                                        
+                                       |                                        
+                                       A
+
+Query_1  14226      TGCTTTCCTAATTACAGTTCTTCCTCCTATCCTTAAAAATAACACTTGCAGAGTCAGTGG  14285
+22       10893365   .....................................................-......  10893307
+
+Query_1  14286      CAGTCATCTGACGTTAAACAAAGTACTCTGTTTTCCAGAAGACAGTCCATCCCCTGGGTG  14345
+22       10893306   .............-................-...................--........  10893251
+
+Query_1  14346      TCTGTTGCTCAAATGAATATTGGCCGCTGTTTATCAGGCAAAGGCAACCTGTCACGTTTT  14405
+22       10893250   ..........-....-.........-...........---C...............-...  10893198
+
+Query_1  14406      CACTGCAAGGCTTGCATTTGTTTTCCTTAAAGTGCAGTGGAAGCATGTTTCACACTTACG  14465
+22       10893197   ....--C...........--G.......-...........-....--........-....  10893147
+
+Query_1  14466      GGCTTATGTTAACTGCGCTGGAACTGGGATTTGTCAAACTCTACACTCTCCTGAGGAAAT  14525
+22       10893146   ...............AA...............----C................-......  10893089
+                       \   \                                   \                
+                       |   |                                   |                
+                       A   A                                   G
+
+Query_1  14526      TCTGAAATGCTAACACCTAAGATACTAAGAAAATAATAATAAGAAAATATTGTCTTTCCT  14585
+22       10893088   ....--.....-......C.......-..........-.....-................  10893035
+
+Query_1  14586      AGTGGTGAGAGAAGAAGTGAGGACAGAAGAGAGCTTCCGTGGGCAAGTAGTCACTGGTTG  14645
+22       10893034   .......G......G...........-.......C..--..T..................  10892976
+                                \                                  \            
+                                |                                  |            
+                                G                                  T
+
+Query_1  14646      ATCATTCTCAAGATTGCGCTGAAAATTAAAAATGGATTCTTATTTAAACGTTCTGAGCGC  14705
+22       10892975   ...G.....-......-..........----...........-.....T.-.....--..  10892924
+                       \                                                        
+                       |                                                        
+                      CA
+
+Query_1  14706      AGTGTATAGAGAACTGTTATGTTTCAGGTCTTGCAAAGTATTTTTTCTTATGCCTGGCCT  14765
+22       10892923   .....................-..........................--...--T....  10892869
+
+Query_1  14766      GTTCCCCTCTTCTTCATATGTGCAGTTGTACACTGCGACAGCTTTGTAAGTGACTGACAA  14825
+22       10892868   ..GT............----...........................-.....---..TG  10892814
+                                                        \   \                   
+                                                        |   |                   
+                                                        A  AT
+
+Query_1  14826      GAACTTTGCAGGTACAGTGTTGCTAATGTTGTCATTTACAGGGACTAATGCTCAAGAAGC  14885
+22       10892813   C...........--.....-..............-..................-......  10892757
+                            \                                   \               
+                            |                                   |               
+                            C                                   G
+
+Query_1  14886      TGCTATTGTTATTATATCATGGATGTTGCAC  14916
+22       10892756   .........--..T.................  10892728
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 15854526571170
+
+
+  Database: Gallus_gallus.GRCg6a.dna_sm.toplevel.fa
+    Posted date:  Sep 21, 2021  12:42 PM
+  Number of letters in database: 1,065,365,425
+  Number of sequences in database:  464
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
