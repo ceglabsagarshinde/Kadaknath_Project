@@ -122,6 +122,16 @@ Data is organised into the following folders:
 
 **Supplementary_Fig3_4_5: This folder contains script, position, bed files and read ids which has been used for the Fig 3,4 and 5.
 
+**FST_KADK_XBBC_YOSK:This folder contains the following subfolders:
+
+    KADK_YOSK: This folder contains the input file, code and figure for Fst comparison from ANGSD and popgenWindow.py between Kadaknath (KADK) and Yeonsan Ogye (YOSK) individuals.
+    YOSK_XBBC: This folder contains the input file, code and figure for Fst comparison from ANGSD and popgenWindow.py between Yeonsan Ogye (YOSK) and Xichuan black-bone (XBBC) individuals.
+    
+ **Dup1_Dup2_phylogeny: This folder contains the input files, code, and figure for the Dup1_Dup2_phylogeny.
+
+
+
+
 
 **Prerequisites:**
 
